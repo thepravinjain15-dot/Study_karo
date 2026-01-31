@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="50%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <style>
+      .title { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; font-weight: 800; font-size: 36px; fill: #0f172a; }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" rx="20" fill="#FFFFFF" />
+  <circle cx="256" cy="200" r="140" fill="url(#g)" opacity="0.12" />
+  <path d="M170 220 C200 160, 312 160, 342 220 L256 300 Z" fill="url(#g)" opacity="0.95" />
+  <g transform="translate(160,310)">
+    <text x="0" y="40" class="title">LEARN</text>
+    <text x="0" y="84" class="title" style="font-weight:700; font-size:34px;">LOOP</text>
+  </g>
+</svg>

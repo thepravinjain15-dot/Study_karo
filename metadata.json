@@ -1,0 +1,6 @@
+
+{
+  "name": "SkillSwap Pro - The Decentralized Learning Arena",
+  "description": "An AI-powered, community-driven skill exchange platform. Trade expertise instead of money, earn credits for teaching, and unlock premium resources using an authenticated 2FA ecosystem.",
+  "requestFramePermissions": ["camera", "microphone"]
+}
