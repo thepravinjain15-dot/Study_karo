@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "vercel-build": "vite build",
+    "postbuild": "npx tailwindcss -i ./index.css -o ./dist/output.css --minify",
     "preview": "vite preview",
     "server": "node server/index.js"
   },
@@ -22,6 +23,9 @@
   "devDependencies": {
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.0",
+    "autoprefixer": "^10.4.24",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
   }
